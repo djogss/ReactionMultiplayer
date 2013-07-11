@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="C:\Users\monte\AndroidStudioProjects\MyReactionMultiplayerProject\MyReactionMultiplayer\src\main\res" >
+            <file
+                name="ic_launcher"
+                path="C:\Users\monte\AndroidStudioProjects\MyReactionMultiplayerProject\MyReactionMultiplayer\src\main\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\monte\AndroidStudioProjects\MyReactionMultiplayerProject\MyReactionMultiplayer\src\main\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\monte\AndroidStudioProjects\MyReactionMultiplayerProject\MyReactionMultiplayer\src\main\res\drawable-xhdpi\ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\monte\AndroidStudioProjects\MyReactionMultiplayerProject\MyReactionMultiplayer\src\main\res\drawable-xxhdpi\ic_launcher.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="activity"
+                path="C:\Users\monte\AndroidStudioProjects\MyReactionMultiplayerProject\MyReactionMultiplayer\src\main\res\layout\activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="C:\Users\monte\AndroidStudioProjects\MyReactionMultiplayerProject\MyReactionMultiplayer\src\main\res\menu\main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="C:\Users\monte\AndroidStudioProjects\MyReactionMultiplayerProject\MyReactionMultiplayer\src\main\res\values\dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="C:\Users\monte\AndroidStudioProjects\MyReactionMultiplayerProject\MyReactionMultiplayer\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string name="restart_game_button" >Restart game
+                </string>
+                <string name="start_button" >Start
+                </string>
+                <string name="action_settings" >Settings
+                </string>
+                <string name="app_name" >MyReactionMultiplayer
+                </string>
+                <string name="reaction_times_results" >Your score
+                </string>
+                <string name="settings_button" >Settings
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="hide_img" >Hide image
+                </string>
+                <string name="quit_game_button" >Quit game
+                </string>
+                <string name="finished_game_summary" >Your best score
+                </string>
+                <string name="show_img" >Show image
+                </string>
+            </file>
+            <file
+                path="C:\Users\monte\AndroidStudioProjects\MyReactionMultiplayerProject\MyReactionMultiplayer\src\main\res\values\styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="C:\Users\monte\AndroidStudioProjects\MyReactionMultiplayerProject\MyReactionMultiplayer\src\main\res\values-sw600dp\dimens.xml"
+                qualifiers="sw600dp" />
+            <file
+                path="C:\Users\monte\AndroidStudioProjects\MyReactionMultiplayerProject\MyReactionMultiplayer\src\main\res\values-sw720dp-land\dimens.xml"
+                qualifiers="sw720dp-land" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                path="C:\Users\monte\AndroidStudioProjects\MyReactionMultiplayerProject\MyReactionMultiplayer\src\main\res\values-v11\styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="C:\Users\monte\AndroidStudioProjects\MyReactionMultiplayerProject\MyReactionMultiplayer\src\main\res\values-v14\styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                name="rnd_img1"
+                path="C:\Users\monte\AndroidStudioProjects\MyReactionMultiplayerProject\MyReactionMultiplayer\src\main\res\drawable-hdpi\rnd_img1.jpg"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="game_action_activity"
+                path="C:\Users\monte\AndroidStudioProjects\MyReactionMultiplayerProject\MyReactionMultiplayer\src\main\res\layout\game_action_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="game_finished_activity"
+                path="C:\Users\monte\AndroidStudioProjects\MyReactionMultiplayerProject\MyReactionMultiplayer\src\main\res\layout\game_finished_activity.xml"
+                qualifiers=""
+                type="layout" />
+        </source>
+        <source path="C:\Users\monte\AndroidStudioProjects\MyReactionMultiplayerProject\MyReactionMultiplayer\build\res\rs\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\monte\AndroidStudioProjects\MyReactionMultiplayerProject\MyReactionMultiplayer\src\debug\res" />
+    </dataSet>
+
+</merger>

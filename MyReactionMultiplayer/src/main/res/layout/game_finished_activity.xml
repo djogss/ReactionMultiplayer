@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/quit_game_button"
+            android:id="@+id/quiteGameButton"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"/>
+
+    <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/restart_game_button"
+            android:id="@+id/restartGameButton"
+
+            android:layout_alignTop="@+id/quiteGameButton"
+            android:layout_alignParentRight="true"/>
+
+    <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_button"
+            android:id="@+id/settingsButton"
+            android:layout_alignTop="@+id/restartGameButton"
+            android:layout_centerHorizontal="true"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/bestScoreTextView"
+            android:layout_below="@+id/finishedGameSummaryTextView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/finished_game_summary"
+            android:id="@+id/finishedGameSummaryTextView2"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="26dp"/>
+</RelativeLayout>
